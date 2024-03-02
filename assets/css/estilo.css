@@ -1,0 +1,70 @@
+/* Limpar formatação padrão */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+}
+/* layout */
+#area-cabecalho{
+    background-color: #aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo,#area-menu{
+    padding:10px;
+
+}
+
+#area-principal{width: 920px;
+margin: 0;
+padding: 15px;
+
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+
+}
+
+.conteudo-lateral{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.postagem-lateral{
+    font-size: 8px;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+
+}
+
+#rodape{
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+    
+}
+
+
+
